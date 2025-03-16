@@ -43,7 +43,7 @@ Below is the DAG representation of the Metaflow pipeline:
 
 1. Clone the repository:
 ```bash
-git clone <repo_link>
+git clone https://github.com/kapilw25/Metaflow_by_Netflix.git
 ```
 
 2. Install dependencies:
@@ -61,15 +61,15 @@ streamlit run 6_streamlit_netflix.py
 
 Run the Flow:
 ```bash
-python 8_stramlt_mtflw_parallel_branch.py run --movie_title "Inception"
+python 8_mtflw_parallel_branch.py run --movie_title "Inception"
 ```
 List the Flow Runs (to identify the correct run ID):
 ```bash
-python 8_stramlt_mtflw_parallel_branch.py show
+python 8_mtflw_parallel_branch.py show
 ```
 View the Card (Use the correct run ID):
 ```bash
-python 8_stramlt_mtflw_parallel_branch.py card view join
+python 8_mtflw_parallel_branch.py card view join
 ```  
 
 
